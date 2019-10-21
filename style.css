@@ -28,9 +28,7 @@
     height: 500px;
 }
 
-.one.column  {
-    width: 100%;
-}
+
 /*** fine layout base ***/
 
 /*** inizio header ***/
@@ -184,8 +182,56 @@ header {
     max-height: 22px;
 }
 
-.scritta a{
+a{
     text-decoration: none;
 }
 
 /*fine sezione due riquadri prodotti*/
+
+/*Inizio smart mobility*/
+#fourth{
+    width: 100%;
+    padding:40px 0;
+}
+
+.one  {
+    background-image: url("https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg");
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+    background-size: cover;
+    background-origin: content-box;
+    min-height: 500px;
+}
+
+.contenuto_smartmobility {
+    padding: 0 24px;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    top:calc(( 100% - 230.4px) / 2);
+    float: right;
+    color: white;
+
+
+}
+
+.contenuto_smartmobility h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.contenuto_smartmobility p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.contenuto_smartmobility a {
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    font-size: 21px;
+}
+/*fine smart mobility*/
