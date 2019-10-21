@@ -295,3 +295,48 @@ a{
     background-size: cover;
 }
 /*fine due sezioni*/
+
+/*inizio instagram*/
+#instagram{
+    width: 100%;
+    background-image: url("https://helbiz.com/asset/pages/newhome/images/Social-Banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.bianco_in {
+    background: #fff;
+    width: 450px;
+    height: 200px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+
+.bianco_in h2 {
+    line-height: 4.2;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+
+}
+
+.bianco_in p {
+    font-size: 25px;
+    position: relative;
+    bottom:21%;
+}
+
+.bianco_in p i:not(last-type) {
+    margin-right: 6%;
+}
+
+.bianco_in p i:first-child {
+    margin-left: 6%;
+}
+/*fine instagram*/
