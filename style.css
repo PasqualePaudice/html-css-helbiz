@@ -464,3 +464,100 @@ hr{
 
 }
 /*fine footer*/
+
+/*inizio smartphone*/
+.anziano {
+    margin: 0 auto;
+    margin-top: 60px;
+    background-image: url("https://helbiz.com/asset/pages/newhome/images/HelbizBanner.jpg");
+    background-size: cover;
+    width:100%;
+    height: 500px;
+}
+
+._70 {
+    width: 70%;
+    height: 142.4px;
+    margin: 0 auto;
+    padding-top: 30px;
+    margin-bottom: 40px;
+    position: relative;
+
+}
+
+._70 h1{
+    font-size: 36px;
+    position: relative;
+    left: 30px;
+    width: 25%;
+    font-weight: 600;
+    font-style: normal;
+    display: inline-block;
+
+}
+
+.smartphone {
+    display: inline-block;
+    position: absolute;
+    bottom:-90%;
+}
+
+.step {
+    position: relative;
+    top: 20%;
+    right: 10%;
+    float: right;
+    display: inline-block;
+}
+
+.freccia {
+    /*visibility: hidden;*/
+    width: 50px;
+    height: 50px;
+    line-height: 0.8;
+    position: absolute;
+    bottom:328px;
+    padding: 20px;
+    border-radius: 500px;
+    background: rgba(255,255,255,0.5);
+    background-image: none;
+    position: relative;
+    display: inline-block;
+
+}
+
+#sfondo_{
+    position: absolute;
+    left: 27%;
+    top: calc((88% - 500px) / 2);
+    z-index: 1
+}
+
+#sfondo_ img{
+
+    height: 500px;
+    position: absolute;
+}
+
+#smartphone_id {
+    position: relative;
+    height: 630px;
+    z-index: 99999;
+
+}
+
+
+
+.pallini {
+    font-size: 10px;
+    position: absolute;
+    bottom: 60px;
+    left: 44%;
+    width: 100px;
+}
+
+.pallini i {
+    display: inline-block;
+    margin:2%;
+}
+/*fine smartphone*/
