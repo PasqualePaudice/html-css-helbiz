@@ -510,8 +510,17 @@ hr{
     display: inline-block;
 }
 
+
+.smartphone:hover {
+    cursor: pointer;
+}
+
+.smartphone:hover .freccia {
+    visibility: visible;
+}
+
 .freccia {
-    /*visibility: hidden;*/
+    visibility: hidden;
     width: 50px;
     height: 50px;
     line-height: 0.8;
@@ -559,5 +568,22 @@ hr{
 .pallini i {
     display: inline-block;
     margin:2%;
+}
+
+.ol_footer li:hover{
+    cursor: pointer;
+}
+
+.bottoni img:hover{
+    cursor: pointer;
+}
+
+.fab:hover{
+
+    cursor:pointer:;
+}
+
+.vicino p {
+    cursor:pointer;
 }
 /*fine smartphone*/
